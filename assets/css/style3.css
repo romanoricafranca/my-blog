@@ -1,0 +1,83 @@
+*
+{
+ 	margin: 0;
+ 	padding: 0;
+ 	box-sizing: border-box;
+}
+
+
+html
+{
+	scroll-behavior: smooth;
+}
+
+.portfoliobg
+{
+ 	background: url(../images/portfoliotop.jpg);
+ 	height: 100vh;
+ 	background-attachment: fixed;
+ 	background-position: center;
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+}
+
+
+.linkicon
+{
+	position: fixed;
+	top: 30%;
+}
+
+
+.linkicon ul
+{
+	position: relative;
+}
+
+.linkicon ul li
+
+{
+	list-style: none;
+	padding: 20px 20px;
+	margin-bottom: 15px;
+}
+
+.linkicon ul li a
+{
+	color: rgb(0, 255, 224);
+	font-size: 2em;
+}
+
+
+.linkicon ul li a:hover
+{
+	transform: scale(1.2);
+}
+
+
+.porthead
+{
+	font-size: 8em;
+}
+
+/*for tablet screen*/
+@media only screen and (min-width: 401px) and (max-width: 960px)
+{	
+
+
+}
+
+
+
+
+
+/*for mobile phone screen*/
+@media only screen and (max-width: 400px)
+{
+
+	.portfoliobg
+	{
+		width: 100%;
+	}
+
+}
