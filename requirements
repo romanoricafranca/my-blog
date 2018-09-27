@@ -1,0 +1,46 @@
+contact
+
+---contact us page
+---main navbar
+---company address
+---person to contact/number
+---map (google map)
+
+form 
+-fullname 
+-email addrss
+-message(text area)
+-submit
+
+footer
+
+
+home
+
+--main navbar
+--footer
+carousel
+featured content
+
+stretch goals
+
+-multiple images in carousel
+sidebar
+responsive images
+
+gallery page
+
+-cards
+-thumbnails
+-lightbox modal( should appear when imagse is clicked)(stretch goal)
+-minimum number of entries
+
+https://lavendrylounge.com/
+https://drip-dry-laundry-shop.business.site
+
+about
+--history of business
+--mission
+--vission
+
+dev staging prod

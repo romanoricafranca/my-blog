@@ -1,0 +1,224 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #78C0E0;
+	font-family: 'Pangolin', cursive;
+}
+
+/*nav*/
+
+.navbar
+{
+ background-color: rgba(128, 206, 214, 0.5);
+ padding: 0;
+}
+
+.navbar-nav .nav-item .nav-link
+{
+	
+	padding: 20px 20px;
+	color: #000099;
+}
+
+.navbar-nav .nav-item .nav-link:hover
+{
+	transform: scale(1.6);
+	color:  #000099;
+}
+
+.activenav
+{
+	border-bottom: 1px solid #000099;
+	color: #000099;
+}
+
+/*end of nav*/
+
+.head1
+{
+	color: #9966ff;
+}
+
+.img-logo
+{
+	height: 120px;
+	width: 150px;
+	margin-left: 50px;
+	padding-bottom: 0;
+}
+
+.title
+{
+	background: transparent; /*url(../images/home/mybackground.jpg);*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-bottom: 0;
+}
+
+/*home*/
+
+.homefront
+{
+	height: 100vh;
+	background: url(../images/home/3.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.info
+{
+	text-align: center;
+}
+
+.careffect
+{
+	border: 1px solid #262626;
+	box-shadow: 25px 25px 25px #262626; 
+}
+
+.img-comments
+{
+	border-radius: 50%;
+}
+
+
+
+/*end of home*/
+
+/*contact*/
+
+.contactus
+{
+	margin-bottom: 200px;
+}
+
+.btninquire
+{
+	width: 150px;
+	height: 60px;
+	background: transparent;
+	border: 3px solid #000099;
+	border-radius: 25px;
+}
+
+.btninquire:hover
+{
+	background-color:  #000099;
+	box-shadow: 2px 2px 25px #262626;
+}
+
+.btninquire a
+{
+	font-size: 1.5em;
+	color: #000099;
+	font-weight: bolder;
+
+}
+
+.btninquire a:hover
+{
+	color: #78C0E0;
+	text-decoration: none;
+}
+
+
+
+
+.iconfooter span
+{
+	margin: 0 30px;
+} 
+
+.iconfooter span a
+{
+	color: #000099;
+	text-decoration: none;
+	font-size: 3em;
+}
+
+
+
+.imgabout
+{
+	box-shadow: 5px 5px 25px color: #000099; 
+}
+
+
+
+/*for tablet screen*/
+@media only screen and (min-width: 401px) and (max-width: 960px)
+{	
+
+
+	
+	.navbar-nav .nav-item .nav-link
+	{
+		color: #000099;
+		margin-left: 2em;
+	}
+
+	.main
+	{
+		margin-top: 10px;
+	}
+
+	.btninquire
+	{
+	width: 250px;
+	height: 60px;
+	background: transparent;
+	border: 3px solid #000099;
+	border-radius: 25px;
+	}
+
+	.btninquire:hover
+	{
+		background: #000099;
+	}
+
+	.btninquire a
+	{
+	color: #000099;
+	text-decoration: none;
+	}
+
+	.btninquire a:hover
+	{
+	color: transparent;
+	text-decoration: none;
+	}
+
+}
+
+
+
+
+
+/*for mobile phone screen*/
+@media only screen and (max-width: 414px)
+{
+
+	.main
+	{
+		margin-top: 10px;
+	}
+	.navbar-nav .nav-item .nav-link
+	{
+		color: #000099;
+		margin-left: 2em;
+	}
+
+
+	.btninquire
+	{
+	width: 180;
+	height: 60px;
+	margin-left: 4em;
+    }
+
+}
