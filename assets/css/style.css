@@ -5,6 +5,8 @@
 	box-sizing: border-box;
 	font-family: 'Pangolin', cursive;
 	overflow: hidden;
+	height: 100%;
+	width: 100%;
 }
 
 .jumbotron
